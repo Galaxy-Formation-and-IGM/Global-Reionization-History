@@ -32,7 +32,13 @@ The code implements theoretical models, numerical integrations, and plotting rou
     └── AccretionShocks_HeReion.ipynb
 
 /src
-    └── utils.py
+    ├── AccretionShocks_QSO.py
+    ├── Alternat_XRaySources.py
+    ├── Constants_Units.py
+    ├── Cosmological_Reionization.py
+    ├── Cosmology.py
+    ├── Current_XRay_Background.py
+    └── Theoretical_Setup.py
     
 README.txt
 
@@ -66,7 +72,7 @@ README.txt
 
 ## Notes
 
-- Some scripts may depend on intermediate outputs from other scripts. This is managed by /src/utils.py, where shared functions are defined
+- Some scripts may depend on intermediate outputs from other scripts. This is managed by /src directory, where shared functions are defined in various different .py files. They have been named so as to match the corresponding notebooks (from all repositories)
 - Some parts of the code take a long time to run. To avoid repeated execution, intermediate outputs are stored in the /Data directory
 - Files in the /Data directory do not need to be edited manually; updates can be made through the notebooks and saved accordingly
 - The code is in its early stages and contains limited comments
