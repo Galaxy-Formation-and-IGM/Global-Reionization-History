@@ -29,7 +29,7 @@ The code implements theoretical models, numerical integrations, and plotting rou
     └── Important intermediate figures generated in the notebooks.
 
 /Notebooks
-    └── AccretionShocks_HeReion.ipynb
+    └── AccretionShocks_QSO.ipynb
 
 /src
     ├── AccretionShocks_QSO.py
